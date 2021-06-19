@@ -208,7 +208,7 @@ footer input[type=checkbox]{
     position: relative;
     padding-left: 5px;
     padding-right: 5px;
-    background-image: url(/img/bg-hero-mars.jpg);
+    background-image: url(../img/bg-hero-mars.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
