@@ -30,6 +30,10 @@ body{
     font-weight: bolder;
 }
 
+abbr{
+    text-decoration: none;
+}
+
 a{
     color: rgb(189, 55, 0);
     text-decoration: none;
@@ -152,9 +156,9 @@ footer input[type=submit]{
     color: rgb(0, 0, 0);margin-top: 20px;
     border: none;
     padding: 10px 10px;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 footer input[type=submit]:hover{
@@ -211,7 +215,7 @@ footer input[type=checkbox]{
     position: relative;
     padding-left: 5px;
     padding-right: 5px;
-    background-image: url(../img/bg-hero-mars.jpg);
+    background-image: url(/img/bg-hero-mars.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
@@ -374,9 +378,8 @@ footer input[type=checkbox]{
 }
 
 .figcaptionMars2020{
-    font-size: 1rem;
+    font-size: 0.6rem;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .misionesMarteMars2020{
@@ -429,7 +432,7 @@ footer input[type=checkbox]{
 }
 
 .containerCienciaFiccion blockquote p{
-    margin-top: 0px;
+    margin-top: 7px;
 }
 
 .containerCienciaFiccion blockquote{
